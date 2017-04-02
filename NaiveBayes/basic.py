@@ -11,7 +11,7 @@ clf.fit(features_train, labels_train)
 features_test = [[1, 1], [2, 6], [-1, -1], [8, 9]]
 labels_test = [2, 3, 2, 3]
 
-pred = clf.predict([[1, 1], [2, 6], [-1, -1], [8, 9]])
+pred = clf.predict(features_test)
 
 print "Predict Result: ", clf.predict([[3, 7]])
 
